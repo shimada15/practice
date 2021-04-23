@@ -29,7 +29,15 @@
 // console.log(x++);
 // console.log(++x);
 
+'use strict';
+
 let age = 30;
 const name = "田中太郎";
 
+age = age + 2;
+
+
 console.log(`${name}さんの年齢は${age}です`);
+
+// ES6 or ES2015
+// var 変数名/定数;/ ←使わない
